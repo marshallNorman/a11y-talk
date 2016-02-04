@@ -1,0 +1,36 @@
+@import "../template/mixins";
+@import "../template/settings";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100,300);
+
+// theme variables/mixins //
+$orange: #E7AF34;
+
+
+
+// theme styles //
+
+body {
+  background-color: #0E5E75;
+  color: #fff;
+
+  font-family: 'Roboto Slab';
+
+  a {
+    color: #E7AF34;
+  }
+
+}
+
+.intro {
+  text-align: left;
+  top: 0;
+  h1 {
+    font-size: 3em;
+  }
+}
+
+h1 {
+  font-weight: 700;
+  color: $orange;
+}
